@@ -15,6 +15,6 @@ app.get('/hi',(req,res)=>{
     res.json({ message: 'Hello from backend!' });
 })
 
-app.listen(8080, '0.0.0.0',()=>{
+app.listen(8080,()=>{
     console.log("App is running on port 8080");
 })
